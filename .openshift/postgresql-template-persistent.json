@@ -479,7 +479,7 @@
       "name": "STORAGE_CLASS_NAME",
       "displayName": "Storage Class Name",
       "description": "Name of Storage Class to Use",
-      "value": "default",
+      "value": "px-replicated",
       "required": true
     },
     {
