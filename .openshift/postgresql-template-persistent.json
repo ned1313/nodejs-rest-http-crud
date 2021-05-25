@@ -279,7 +279,8 @@
           "requests": {
             "storage": "${VOLUME_CAPACITY}"
           }
-        }
+        },
+        "storageClassName": "${STORAGE_CLASS_NAME}"
       }
     },
     {
@@ -472,6 +473,13 @@
       "displayName": "Volume Capacity",
       "description": "Volume space available for data, e.g. 512Mi, 2Gi",
       "value": "1Gi",
+      "required": true
+    },
+    {
+      "name": "STORAGE_CLASS_NAME",
+      "displayName": "Storage Class Name",
+      "description": "Name of Storage Class to Use",
+      "value": "default",
       "required": true
     },
     {
